@@ -13,9 +13,7 @@
 //---------------------------------------------------------------------------
 class TForm1 : public TForm {
   __published:  // Von der IDE verwaltete Komponenten
-    TImage *Image1;
     TTimer *Timer1;
-    TProgressBar *ProgressBar1;
     void __fastcall Timer1Timer(TObject *Sender);
 
    private:  // Anwender-Deklarationen

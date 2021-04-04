@@ -21,7 +21,7 @@ void TForm1::feuerwerk() {
 
         Canvas->Pen->Color = random(0xFFFFFF);
         Canvas->Pen->Width = random(3) + 1;
-
+        
         for (int j = 0; j < 0x1f; j++) {
             Canvas->MoveTo(x, y);
             Canvas->LineTo(x + random(100) - 50, y + random(100) - 50);
